@@ -80,6 +80,28 @@
     font-size: 4rem;
     padding: 0 .5rem;
   }
+
+  .btn {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    width: 20rem;
+    text-align: center;
+    border: 0.1rem solid var(--violet);
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: rgb(15, 62, 66);
+    background-color: #ecf5f0;
+
+}
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(15, 62, 66);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+    background-color: rgb(15, 62, 66);
+    color: floralwhite;
+}
+
   
   @media all and (max-width: 768px) {
     h1 {
